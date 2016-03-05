@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p {
+  color:#CCC;
+}
+
+#btnentrar {
+  margin-top: 60px;
+  width: 400px
+}
+
+#lbsejabemvindo {
+  margin-top: 20px;
+}
+
+.middlePage {
+  width: 680px;
+  height: 500px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.logo {
+  color:#CCC;
+}

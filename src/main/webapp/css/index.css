@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p {
+    color:#CCC;
+}
+
+#btnentrar {
+    margin-top: 30px;
+}
+
+#logo-espchat {
+    display: inline-block;
+    width: 250px;
+    height: 56px;
+    background: url(/espchat/images/logo-espweb.svg); 
+    /* background: url(///Volumes/Dados%20mac/CHAT_FINAL/index/images/logo-espweb.svg);*/
+    background-size: 250px 56px;
+    margin-top: 37px;
+}
+
+.middlePage {
+    height: 500px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@media all and (max-width: 549px){
+
+    .middlePage {
+        width: 390px;
+    }
+
+    #linkEspWeb {
+        display: none;
+    }
+}
+
+@media all and (min-width: 550px) and (max-width: 767px) {
+    .middlePage {
+        margin: 0px 20px 0px 20px;
+    }
+}
+
+@media all and (min-width: 768px){
+    .middlePage {
+        width: 680px;
+    }
+
+}
+
+@media all and (max-width: 992px){
+
+}
+
+.logo {
+    color:#CCC;
+}
